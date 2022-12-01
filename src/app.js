@@ -5,7 +5,7 @@ const exec = util.promisify(require('child_process').exec);
 const fs = require('fs');
 
 const port = process.env.PORT || 3000;
-const hostname = "localhost";
+const hostname = "0.0.0.0";
 
 router.use(bodyParser.text({type: "text/plain", limit: '50mb'}))
 
