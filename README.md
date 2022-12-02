@@ -23,3 +23,4 @@ Content-Type: text/plain <br />
 Body: base64 of the pdf file <br />
 
 ## Demo video https://youtu.be/qHd3JfDjDM0
+![](https://github.com/melWiss/pdf2html-api/blob/master/example.gif)
