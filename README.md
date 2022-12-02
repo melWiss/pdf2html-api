@@ -3,6 +3,10 @@ Hello there!
 This repo is a solution for Nuit de l'info competition 2022!
 
 ## How to install
+Clone this repository
+```console
+git clone https://github.com/melWiss/pdf2html-api
+```
 Make sure that docker is installed first, then run this command to build the docker image
 ```console
 docker build -t pdf2html-api .
@@ -13,9 +17,9 @@ docker run -it -p 3000:3000 --name pdf2html-api-container pdf2html-api
 ```
 
 ## How to use the api
-This api has one route which is, in our case "POST / HTTP/1.1"
-POST /
-Content-Type: text/plain
-Body: base64 of the pdf file
+This api has one route which is, in our case "POST / HTTP/1.1" <br />
+POST / <br />
+Content-Type: text/plain <br />
+Body: base64 of the pdf file <br />
 
 ## Demo video https://youtu.be/qHd3JfDjDM0
